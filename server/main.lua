@@ -1,19 +1,19 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 -- Create the cigarette pack
-QBCore.Functions.CreateUseableItem("redwoodcigs", function(source, item)
+QBCore.Functions.CreateUseableItem("pallmall", function(source, item)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     TriggerClientEvent('cigarettes:client:UseCigPack', src, item)
 end)
 
-QBCore.Functions.CreateUseableItem("cardiaquecigs", function(source, item)
+QBCore.Functions.CreateUseableItem("lm", function(source, item)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     TriggerClientEvent('cigarettes:client:UseCigPack', src, item)
 end)
 
-QBCore.Functions.CreateUseableItem("yukoncigs", function(source, item)
+QBCore.Functions.CreateUseableItem("jps", function(source, item)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     TriggerClientEvent('cigarettes:client:UseCigPack', src, item)
